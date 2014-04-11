@@ -1,5 +1,6 @@
 from django.conf.urls import patterns, url
 
+# Import class based views
 from polls import views
 
 urlpatterns = patterns('',
